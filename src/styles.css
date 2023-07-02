@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background-color: green;
+  color: #fff;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.indicators > button {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.indicators > button.active {
+  background-color: green;
+  color: #fff;
+}
